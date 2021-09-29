@@ -3,9 +3,9 @@
 > This API Gateway was implemented for as part of the microservices for a NUS software engineering industry project.
 > - This is imported from the original git repo to remove any secrets.
 
-The Node Auth Server handles 2 main functions. The subsystem will also be responsible for handling these 2 functions:
+The Node Auth Server handles 2 main functions. The server will also be responsible for handling these 2 functions:
 
-1. The subsystem will act as an **authentication and authorisation** server. The authentication and authorisation will be handled using JWT tokens. JWT tokens will be encrypted with the following information in its claims:
+1. The server will act as an **authentication and authorisation** server. The authentication and authorisation will be handled using JWT tokens. JWT tokens will be encrypted with the following information in its claims:
 
 >- sub (**userId**)
 >- tokenType (at for **access token** or rt for **refresh token**)
@@ -27,7 +27,7 @@ The current tokens will be revoked when the following events occur:
 >- User refreshes tokens  
 
 
-2\. The subsystem will also act as an account management server. All functions related to user accounts can be performed here. This includes but not limited to:
+2\. The server will also act as an account management server. All functions related to user accounts can be performed here. This includes but not limited to:
 
 >- Reset Password
 >- CRUD Account Details
