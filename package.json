@@ -1,0 +1,36 @@
+{
+  "name": "account-management-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "initDb": "node util/seedDb/seedDb.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.987.0",
+    "axios": "^0.21.4",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-async-errors": "^3.1.1",
+    "express-validation": "^3.0.8",
+    "ioredis": "^4.27.9",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1",
+    "mongoose": "^6.0.4",
+    "morgan": "^1.10.0",
+    "morgan-body": "^2.6.6",
+    "nanoid": "^3.1.25",
+    "nodemailer": "^6.6.3",
+    "redis-json": "^6.0.1"
+  }
+}
